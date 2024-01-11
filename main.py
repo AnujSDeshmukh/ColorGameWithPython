@@ -8,7 +8,7 @@ window.title("The Color")
 window.geometry("640x480")
 window.resizable(False, False)
 window._set_appearance_mode("light")
-window.iconbitmap("rgb.ico")
+window.iconbitmap("icon.ico")
 
 points = ctk.IntVar(value = 0)
 timer = ctk.IntVar(value = 31)
